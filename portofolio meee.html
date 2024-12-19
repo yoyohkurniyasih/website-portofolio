@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoyoh Kurniyasih Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #89CFF0, #FFB6C1);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(45deg, #89CFF0, #FFB6C1);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        nav {
+            background: linear-gradient(45deg, #89CFF0, #FFB6C1);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #FFB6C1;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #FFB6C1;
+        }
+        .profile h2 {
+            text-align: center;
+        }
+        .profile p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .projects div {
+            background: linear-gradient(to bottom, #FFB6C1, #E3F2FD);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #89CFF0;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .projects div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #FF69B4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+            color: #89CFF0;
+        }
+        footer {
+            background: linear-gradient(45deg, #89CFF0, #FFB6C1);
+            text-align: center;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yoyoh Kurniyasih</h1>
+        <p>Mahasiswa teladan di Universitas Yatsi Madani</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="profile" class="profile">
+        <img src="C:\Users\yoyoh kurniyasih\Pictures\foto penting.jpg" alt="Yoyoh's Profile Picture">
+        <h2>About mee!</h2>
+        <p>Hello! perkenalkan yoyoh kurniyasih atau sering di panggil yoyoh adalah mahasiswa S1 Ilmu Komputer yang memiliki minat mendalam pada pengembangan teknologi dan pemecahan masalah menggunakan solusi berbasis komputer. Saat ini saya sedang menempuh pendidikan di Universitas Yatsi Madani, dengan fokus pada pemrograman, coding, dan analisis data.</p>
+        <p><strong>TTL:</strong> Tangerang, 12 Juni 2005</p>
+        <p><strong>Alamat:</strong> Kp. Cadas, Ds. Karet, Kec. Sepatan, Kab. Tangerang, Banten</p>
+        <p><strong>Cita-cita:</strong> Data Analyst, database administrator</p>
+        <p><strong>Jurusan:</strong> S1 Ilmu Komputer</p>
+        <p><strong>Organisasi:</strong> Mapala Himapasti</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div>
+            <img src="C:\Users\yoyoh kurniyasih\Downloads\WhatsApp Image 2024-12-19 at 13.19.22.jpeg" alt="Project 1">
+            <h3>YOYOH KURNIYASIH</h3>
+            <p>Yoyoh adalah seorang mahasiswa S1 Ilmu Komputer yang berkeinginan untuk menjadi data analis dan programmer. Dengan semangat yang tinggi,ia fokus mengembangkan keterampilan dalam bidang pemrograman dan analisis data.</p>
+        </div>
+        <div>
+            <img src="C:\Users\yoyoh kurniyasih\Downloads\GEDUNG-YATSI.png" alt="Project 2">
+            <h3>UNIVERSITAS YATSI MADANI </h3>
+            <p>Mencakup program studi di bidang STIKes dan Teknologi Bisnis, berlokasi di Jl. Aria Santika No. 40A, RT.001/RW.003, Margasari, Kec. Karawaci, Kota Tangerang, Banten 15114. Kampus ini menawarkan pendidikan yang berkualitas dengan tujuan menghasilkan lulusan yang siap bersaing di dunia kerja, khususnya di bidang kesehatan, teknologi, dan bisnis.</p>
+        </div>
+        <div>
+            <img src="C:\Users\yoyoh kurniyasih\Downloads\IMG-20241026-WA0031.jpg" alt="Project 4">
+            <h3>MAPALA HIMAPASTI</h3>
+            <p>Yoyoh Kurniyasih bergabung dengan MAPALA Himpunan Mahasiswa Pecinta Alam (Himapasti) sebagai wujud komitmennya terhadap kegiatan luar ruang dan pelestarian alam. MAPALA Himapasti adalah organisasi mahasiswa yang berfokus pada kegiatan pecinta alam, dengan tujuan untuk membangun kepedulian terhadap lingkungan dan mengembangkan kemampuan fisik, mental, serta keterampilan dalam menjelajahi alam bebas.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:grimm2001793@gmail.com">grimm2001793@gmail.com</a></p>
+        <p>WA: <a href="tel:+6288973893770">+6288973893770</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Yoyoh Kurniyasih. All rights reserved</p>
+    </footer>
+</body>
+</html>
